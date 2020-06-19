@@ -7,12 +7,20 @@ import HookCounterMultiple from './components/HookCounterMultiple';
 import HookCounter2 from './components/HookCounter2';
 import HookCounterObjects from './components/HookCounterObjects';
 import HookCounterArray from './components/HookCounterArray';
+import ClassCounterOne from './components/ClassCounterOne';
+import HookCounterEffect from './components/HookCounterEffect';
 
 function App() {
   return (
     <div className="App">
-      <HookCounterArray />
-      <HookCounterObjects />
+      <div className="counter2">
+        <HookCounterEffect />
+        {/* <ClassCounterOne /> */}
+      </div>
+      <div className="counter2">
+        <HookCounterArray />
+        <HookCounterObjects />
+      </div>
       <div className="counter">
         <ClassCounter />
         <HookCounter />

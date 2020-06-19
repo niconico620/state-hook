@@ -6,6 +6,10 @@
   border: thick solid black
 }
 
+.counter2 {
+  border: thick solid black
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
