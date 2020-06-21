@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <div className="counter2">
         <HookCounterEffect />
-        {/* <ClassCounterOne /> */}
+        {/*  <ClassCounterOne /> */}
       </div>
       <div className="counter2">
         <HookCounterArray />
